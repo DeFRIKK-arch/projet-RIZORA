@@ -1,0 +1,181 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+nav
+{
+    margin: 0px;
+    border-radius: 10px;
+    background-color: rgb(14, 65, 14);
+}
+
+#section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#div00
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: 10px;
+}
+
+.strong0
+{
+    color: rgb(192, 192, 49);
+}
+
+#div01
+{
+    display: flex;
+    gap: 25px;
+    right: 10px;
+}
+
+.class01
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+} 
+
+.class01:hover
+{
+    background-color: rgb(33, 87, 33);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1
+{
+    color: #1f4428;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1
+{
+    text-align: center;
+    color: rgb(85, 84, 84);
+}
+
+#div1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.span1
+{
+    border: solid 0.1px grey;
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(54, 54, 54);
+    background-color: beige;
+    width: 110px;
+    text-align: center;
+}
+
+.span10
+{
+    border: solid 0.1px grey;
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(54, 54, 54);
+    background-color: #189446;
+    width: 110px;
+    text-align: center;
+}
+
+#section1
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-conteneur {
+    border: 1px solid wheat;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: rgb(216, 214, 214);
+    height: 620px;
+}
+
+.product-image {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+img
+{
+    border-radius: 10px;
+}
+
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tracable {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.details {
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.detaillé
+{
+    border-bottom: 1px grey dashed;
+}
+
+.flou
+{
+    color: gray;
+}
+
+.btn-contact {
+    width: 100%;
+    padding: 12px;
+    background-color: #2d5f3f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-contact:hover {
+    background-color: #1f4428;
+}

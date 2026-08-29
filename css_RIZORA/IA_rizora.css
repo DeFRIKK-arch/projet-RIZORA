@@ -1,0 +1,203 @@
+body
+{
+    background-color:rgb(247, 238, 226);
+}
+
+nav
+{
+    margin: 0px;
+    border-radius: 10px;
+    background-color: rgb(14, 65, 14);
+}
+
+#section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+#div00
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: 10px;
+}
+
+.strong0
+{
+    color: rgb(192, 192, 49);
+}
+
+#div01
+{
+    display: flex;
+    gap: 25px;
+    right: 10px;
+}
+
+.class01
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+} 
+
+.class01:hover
+{
+    background-color: rgb(33, 87, 33);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#image
+{
+    text-align: center;
+}
+
+.image
+{
+    height: 55%;
+    width: 70%;
+}
+
+h1
+{
+    color: rgb(64, 105, 64);
+    font-size: 40px;
+    text-align: center;
+}
+
+#p1
+{
+    color: rgb(73, 72, 72);
+    text-align: center;
+}
+
+#div1
+{
+    background-color:rgb(243, 217, 182);
+    padding: 15px;
+    display: flex;
+    border-radius: 15px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 72, 49);
+}
+
+#div10
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#section1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#info-conteneur
+{
+    border: solid 0.1px grey;
+    border-radius: 15px;
+    padding: 20px 10px 20px 20px;
+    width: 350px;
+    height: 540px;
+    background-color: rgb(219, 217, 217);
+}
+
+#entête
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.petitspan
+{
+    background-color: rgb(250, 119, 119);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.p0
+{
+    color: gray;
+}
+
+.info-mésure
+{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2
+{
+    color: rgb(27, 70, 27);
+    font-size: 25px;
+}
+
+#vide
+{
+    background-color: rgb(194, 192, 192);
+    width: 95%;
+    border-radius: 10px;
+}
+
+.vide
+{
+    background-color: rgb(141, 110, 52);
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.conseil
+{
+    padding: 10px;
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(205, 243, 205);
+    color: rgb(57, 94, 57);
+}
+
+#info-conteneur0
+{
+    border: solid 0.1px grey;
+    border-radius: 15px;
+    padding: 20px 10px 20px 20px;
+    width: 456px;
+    background-color: rgb(219, 217, 217);
+}
+
+#vide0
+{
+    background-color: rgb(194, 192, 192);
+    width: 95%;
+    border-radius: 10px;
+}
+
+.vide0
+{
+    background-color: rgb(141, 110, 52);
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.p2
+{
+    text-align: center;
+    color: gray;
+}
