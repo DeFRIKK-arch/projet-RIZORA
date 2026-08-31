@@ -1,0 +1,117 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+nav
+{
+    margin: 0px;
+    border-radius: 10px;
+    background-color: rgb(14, 65, 14);
+}
+
+#section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#div00
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: 10px;
+}
+
+.strong0
+{
+    color: rgb(192, 192, 49);
+}
+
+#div01
+{
+    display: flex;
+    gap: 25px;
+    right: 10px;
+}
+
+.class01
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+} 
+
+.class01:hover
+{
+    background-color: rgb(33, 87, 33);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1
+{
+    color: rgb(27, 71, 27);
+    text-align: center;
+    font-size: 30px;
+}
+
+#p0
+{
+    text-align: center;
+    font-size: 18px;
+}
+
+#div1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.class1
+{
+    background-color: rgb(223, 216, 216);
+    border: solid 0.1px grey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 10px 10px;
+    width: 150px;
+    height: 80px;
+}
+
+#div2
+{
+    background-color:  rgb(223, 216, 216);
+    border: solid 0.1px grey;
+    border-radius: 10px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p02
+{
+    background-color: rgb(59, 105, 59);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.p002
+{
+    background-color: rgb(160, 160, 67);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#p1
+{
+    color: gray;
+    text-align: center;
+}
