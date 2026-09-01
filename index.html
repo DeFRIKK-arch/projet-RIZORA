@@ -24,7 +24,7 @@
                     <span><h3>Riz<strong class="strong0"> ora</strong></h3></span>
                 </div>
 
-                <div id="div01">
+                <div id="navLinks" class="navLinks">
                     <span class="class01"><a href="index.html" class="class01">Accueil</a></span>
                     <span class="class01"><a href="dashboard_ rizora.html" class="class01">Dashboard</a></span>
                     <span class="class01"><a href="" class="class01">Parcelles</a></span>
@@ -33,7 +33,13 @@
                     <span class="class01"><a href="stock_rizora.html" class="class01">Stocks</a></span>
                     <span class="class01"><a href="reseau_rizora.html" class="class01">Réseau</a></span>
                 </div>
-
+                
+                <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Ouvrir le menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
             </section>
         </nav>
 
@@ -82,11 +88,29 @@
                 <a href="stock_rizora.html" class="class3"><img src="image_RIZORA/boite de stock32.png" alt="rtr"><br><br><strong>Stocks</strong><br><br>Production, stock disponible, ventes.</a>
             </div>
         </main>
+
+        <br><br><br>
+        <p id="p1">Rizora---Prototype hackathon 2026</p>
+        <br><br>
         
-        <script src="" async defer></script>
+        <script>
+            const toggle = document.getElementById('menuToggle');
+            const links = document.getElementById('navLinks');
+
+            toggle.addEventListener('click', () => {
+                const isOpen = links.classList.toggle('open');
+                toggle.setAttribute('aria-expanded', isOpen);
+            });
+
+            // referme le menu quand on clique sur un lien
+            links.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    links.classList.remove('open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+        </script>
     </body>
-    <br><br><br>
-    <p id="p1">Rizora---Prototype hackathon 2026</p>
-    <br>
+    
 
 </html>
