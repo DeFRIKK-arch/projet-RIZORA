@@ -18,6 +18,7 @@ nav
     justify-content: space-between;
     align-items: center;
     padding: 10px 18px;
+     position: relative;
 }
 
 #div00
@@ -72,6 +73,7 @@ nav
 @media (max-width: 855px) {
   #navLinks
   {
+    z-index: 100;     
     position: absolute;
     top: 100%;
     width: 100px;
